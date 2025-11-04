@@ -1,16 +1,30 @@
-
+<!-- 1) Different text tags (Headings, paragraphs, bold, italic, etc)
+2) At least one image
+3) At least one button (try and style it - color and text)
+4) Include a google font (instructions in references)
+5) Give your containers ID's and address them directly for the most part, but you can also do some global styling as well.  -->
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>replit</title>
+    <title>My Photography</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    
-    <h1 id="title">Hello world</h1>
-
+    <h1 id="title">Arjun Thosar's Photography</h1>
+    <h2 class="headings">My Photos</h2>
+    <div id="image-container">
+      <img src="DSC09668.jpg">
+      <img src="DSC09560.jpg">
+      <img src="DSC09652.jpg">
+    </div>
+    <b class="headings">My Story</b>
+    <p>My name is Arjun Thosar, and one of my biggest hobbies and passions is photography. Ever since I picked up my first camera at 13 years old, I was astonished by the creativity I could implement through photography.</p>
+    <i class="headings">Contact</i>
+    <p>Email me:</p>
+    <button type="button" id="contact-button" onclick="prompt('Enter your message:')"><p>Contact Me</p></button>
     <script src="script.js"></script>
   </body>
 </html>
+
